@@ -1,11 +1,28 @@
-# connect-to-census
+# connect-to-census - bilingual schools in NYC dataset
 
-In this assignment, you will connect your data to census data and do a bit of basic exploratory data analysis (EDA) on your dataset. The EDA will be in 1-D (distribution of your data) and 2-D (comparing your data to census variables).
+For my master's project, I have been exploring rhe new immigration wave to the US with a particular focus on children's access to education. I want to explore How being an immigrant at a young age influence children's upbringing and their access to education. 
 
-## Assignment
+## outcomes
 
-Identify the geospatial columns in your data. You may have addresses or latitude and longitude. In this assignment you will 
+Hispanic population and median income:
+   - Areas with higher median income tend to have a lower percentage of Hispanic population, and vice versa.
+    
+Program type vs Hispanic population vs median income:
+    - Transitional Bilingual Education programs are more prevalent in areas with higher Hispanic population percentages.
+    - What’s up with places with high income, a few Hispanic populations, and a lot of Spanish language programs (both types,  more specific dual language)? 
+    - Generally, areas with a high Hispanic population have a great number of both programs, but in areas with a low Hispanic population, and high income have         more dual language schools.
 
+Program Type vs General/Special Education:
+    - More transitional Spanish schools have special education programs. Why?
+    
+Program types vs Hispanic percentage estimate:
+    - There isn't enough evidence to reject the null hypothesis of no difference between the two program types in terms of Hispanic percentage estimates.
+Median Incomes vs Program Types:
+    - There’s a significant difference in median incomes between communities with Dual Language programs and those with Transitional Bilingual Education programs.
+
+
+
+## methodology
 ### Part 1: Geocoding your data and joining it with Census data
 
 1. In the `connect-to-census.ipynb` notebook, add code to:
@@ -38,6 +55,3 @@ Identify the geospatial columns in your data. You may have addresses or latitude
 
 2. Run the notebooks. If you're unfamiliar with this setup, see https://github.com/dmil/jupyter-quickstart/
 
-## Note about large files
-
-If your data is too big (bigger than ~50MB), just upload the code to transform your data, not the data itself. If you want to make sure to never upload the datafile to git, just add the name of the file to the `.gitignore` file.
