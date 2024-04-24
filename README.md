@@ -47,6 +47,9 @@ Median Incomes vs Program Types:
 
 1. In a new google doc, summarize what you've found so far. Think of this as a short memo of what you've done or the progress you've made towards pitching a story on this topic or using this dataset. You don't need to show all the charts, just the one you found most interesting. What questions do you have that you'd like to dig more into? Do you think you've got an idea for a story angle? Write it informally as a memo to Dhrumil and Aishi (your editors). 
 
+### Part 4
+Now add one more linear-regression.ipynb . In this notebook you’ll use linear regression as a tool of exploratory data analysis. Remember, regressions are a way to put a “line of best fit” through a scatter plot. So you can use the scatterplots you’ve already made as a starting point. Or you can make new scatter plots. 
+
 ## Usage
 
 1. Rename `.env.example` to `.env` and put in your census API key. 
